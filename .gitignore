@@ -55,3 +55,7 @@ Module.symvers
 Mkfile.old
 dkms.conf
 /Debug/
+
+# CMake, CLion
+.idea
+cmake-build-*

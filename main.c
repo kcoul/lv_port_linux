@@ -47,8 +47,9 @@ int main(void)
     lv_linux_disp_init();
 
     /*Create a Demo*/
-    lv_demo_widgets();
-    lv_demo_widgets_start_slideshow();
+    //lv_demo_widgets();
+    lv_demo_music();
+    //lv_demo_widgets_start_slideshow();
 
     /*Handle LVGL tasks*/
     while(1) {
